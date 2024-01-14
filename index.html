@@ -11,14 +11,20 @@
     <div id="wrapper">
       <div class="container">
         <h1>Greeter</h1>
-        <label class="user-label">Username</label>
         <br />
-        <input type="text" id="text-box" />
+        <label class="user-label">What's your name?</label>
+        <input type="text" id="name-box" />
+        <br />
+        <label class="user-label">How old are you?</label>
+        <input type="number" id="age-box" />
         <br />
         <button id="submit-btn">SUBMIT</button>
-        <h2 id="greeting-txt"></h2>
+
+        <h2 class="result-text" id="greeting-txt"></h2>
+        <h2 class="result-text" id="age-text"></h2>
       </div>
     </div>
+
     <script src="main.js"></script>
   </body>
 </html>
